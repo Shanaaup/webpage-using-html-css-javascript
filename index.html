@@ -2,68 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Final Year Project</title>
+    <title>AI for Social Good</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav>
-        <h2>AI Final Year Project</h2>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#model">Model</a></li>
-            <li><a href="#predict">Prediction</a></li>
-        </ul>
-    </nav>
+<header>
+    <h1>AI-Powered Health Awareness System</h1>
+    <p>Using Artificial Intelligence to Improve Public Health 🌱</p>
+</header>
 
-    <!-- Home -->
-    <section id="home" class="section">
-        <h1>AI-Based Prediction System</h1>
-        <p>Final Year Project | Machine Learning & Web Application</p>
-        <button onclick="scrollToPredict()">Try Prediction</button>
-    </section>
+<section class="card">
+    <h2>🌍 About the Project</h2>
+    <p>
+        This project aims to help society by providing early health-risk awareness
+        using artificial intelligence. It encourages people to seek timely
+        medical advice and promotes preventive healthcare.
+    </p>
+</section>
 
-    <!-- About -->
-    <section id="about" class="section">
-        <h2>About Project</h2>
-        <p>
-            This project uses Machine Learning techniques to analyze data and provide
-            accurate predictions. The system is deployed as a web application using
-            HTML, CSS, JavaScript, and Flask backend.
-        </p>
-    </section>
+<section class="card">
+    <h2>🧠 Health Risk Prediction</h2>
 
-    <!-- Model -->
-    <section id="model" class="section">
-        <h2>ML Model Used</h2>
-        <ul>
-            <li>Algorithm: XGBoost / Random Forest / CNN</li>
-            <li>Language: Python</li>
-            <li>Frameworks: Scikit-learn, Flask</li>
-            <li>Frontend: HTML, CSS, JavaScript</li>
-        </ul>
-    </section>
+    <form id="healthForm">
+        <input type="number" placeholder="Age" required>
+        <input type="number" placeholder="BMI Value" required>
+        <input type="number" placeholder="Blood Pressure" required>
+        <button type="submit">Check Health Risk</button>
+    </form>
 
-    <!-- Prediction -->
-    <section id="predict" class="section">
-        <h2>Prediction Demo</h2>
+    <div id="result"></div>
+</section>
 
-        <form id="predictForm">
-            <input type="number" placeholder="Enter Feature 1" required>
-            <input type="number" placeholder="Enter Feature 2" required>
-            <input type="number" placeholder="Enter Feature 3" required>
-            <button type="submit">Predict</button>
-        </form>
+<section class="card">
+    <h2>💡 Social Impact</h2>
+    <ul>
+        <li>✔ Early disease awareness</li>
+        <li>✔ Reduced healthcare burden</li>
+        <li>✔ Useful for rural communities</li>
+        <li>✔ Encourages healthy lifestyle</li>
+    </ul>
+</section>
 
-        <h3 id="result"></h3>
-    </section>
+<footer>
+    <p>Final Year Project | AI for Social Good ❤️</p>
+</footer>
 
-    <footer>
-        <p>© 2026 Final Year Project | Developed by You</p>
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
